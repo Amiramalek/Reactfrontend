@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://nodebackend-mu.vercel.app/api';
 
 // Register function
 export const registerUser = async (name, email, password) => {
